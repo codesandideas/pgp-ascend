@@ -18,9 +18,9 @@ There is no build step: `index.html` is the deployable artifact.
 
 ## Asset paths
 
-Image `src` values are root-absolute (`/wp-content/uploads/...`), matching how
-the page is served from the document root of mesaschool.co. Serve the repo root
-with any static server to preview it:
+Image `src` values are relative (`wp-content/uploads/...`), so the page renders
+from any location: the document root of mesaschool.co, a subpath such as GitHub
+Pages, a local static server, or straight off the filesystem.
 
 ```sh
 python3 -m http.server 8000   # then open http://localhost:8000/
