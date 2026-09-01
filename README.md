@@ -35,8 +35,6 @@ encoded as WebP q80. Logos are WebP with alpha. The whole image set is ~1.4 MB.
 
 Slots still showing the dashed `IMAGE` placeholder, pending source files:
 
-- 8 mentor portraits and 8 mentor company logos (card text is still `[Mentor name]`)
-- 8 VC logo slots inside the mentor cards
 - 5 product screenshots (automation dashboard, agent output, web app with login,
   Product Hunt launch page, B2B invoicing dashboard)
 - video poster
